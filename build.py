@@ -11,6 +11,7 @@ index.html next to the .psyexp. It then rewrites the top-level index.html.
 
 Nothing here needs editing when a new experiment is added: see README.md.
 """
+import hashlib
 import html
 import json
 import os
@@ -25,6 +26,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 PSYCHOPY = Path("/Applications/PsychoPy.app/Contents")
 LIB = "psychojs-2026.2.2"   # the PsychoJS files in lib/; must match the PsychoPy version
+
+
+# Changes whenever shared/datapipe.js changes, so browsers never reuse an old copy of it.
+SHARED_VERSION = hashlib.sha1((ROOT / "shared" / "datapipe.js").read_bytes()).hexdigest()[:10]
 
 
 def fail(msg):
@@ -102,7 +107,7 @@ def build(folder):
 
     exp_id = cfg.get("datapipe_id", "")
     js = replace_once(js, rf"'\./lib/{re.escape(LIB)}\.js';",
-                      f"'../lib/{LIB}.js';\nimport {{ createDataPipe, lockParticipantCode }} from '../shared/datapipe.js';",
+                      f"'../lib/{LIB}.js';\nimport {{ createDataPipe, lockParticipantCode }} from '../shared/datapipe.js?v={SHARED_VERSION}';",
                       "import the DataPipe module")
     js = replace_once(js, r"(const psychoJS = new PsychoJS\(\{[^}]*\}\);)",
                       "\\1\n\n// Unique, uneditable participant code, added by build.py:\n"
@@ -148,7 +153,9 @@ def build(folder):
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery-ui-dist@1.12.1/jquery-ui.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/preloadjs@1.0.1/lib/preloadjs.min.js"></script>
-    <script src="./experiment.js" type="module"></script>
+    <!-- The timestamp makes the browser fetch the current experiment.js on every visit.
+         Without it, browsers (Safari especially) keep running an old copy after an update. -->
+    <script type="module">import('./experiment.js?v=' + Date.now());</script>
   </body>
 </html>
 """, encoding="utf-8")

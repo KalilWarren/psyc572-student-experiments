@@ -3,7 +3,7 @@
  ****************************/
 
 import { core, data, sound, util, visual, hardware } from '../lib/psychojs-2026.2.2.js';
-import { createDataPipe, lockParticipantCode } from '../shared/datapipe.js';
+import { createDataPipe, lockParticipantCode } from '../shared/datapipe.js?v=30087dd572';
 const { PsychoJS } = core;
 const { TrialHandler, MultiStairHandler } = data;
 const { Scheduler } = util;
