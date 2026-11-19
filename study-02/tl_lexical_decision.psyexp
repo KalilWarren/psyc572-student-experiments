@@ -90,7 +90,7 @@
         <Param val="md" valType="str" updates="None" name="formattingSyntax" />
         <Param val="False" valType="bool" updates="constant" name="italic" />
         <Param val="LTR" valType="str" updates="None" name="languageStyle" />
-        <Param val="0.05" valType="num" updates="constant" name="letterHeight" />
+        <Param val="0.035" valType="num" updates="constant" name="letterHeight" />
         <Param val="1.0" valType="num" updates="constant" name="lineSpacing" />
         <Param val="textbox" valType="code" updates="None" name="name" />
         <Param val="" valType="num" updates="constant" name="opacity" />
@@ -100,7 +100,7 @@
         <Param val="Type here..." valType="str" updates="constant" name="placeholder" />
         <Param val="(0, 0)" valType="list" updates="constant" name="pos" />
         <Param val="True" valType="bool" updates="None" name="saveStartStop" />
-        <Param val="(1.2, 0.5)" valType="list" updates="constant" name="size" />
+        <Param val="(1.2, 0.9)" valType="list" updates="constant" name="size" />
         <Param val="" valType="list" updates="constant" name="speechPoint" />
         <Param val="" valType="code" updates="None" name="startEstim" />
         <Param val="time (s)" valType="str" updates="None" name="startType" />
@@ -170,7 +170,7 @@
         <Param val="md" valType="str" updates="None" name="formattingSyntax" />
         <Param val="False" valType="bool" updates="constant" name="italic" />
         <Param val="LTR" valType="str" updates="None" name="languageStyle" />
-        <Param val="0.05" valType="num" updates="constant" name="letterHeight" />
+        <Param val="0.035" valType="num" updates="constant" name="letterHeight" />
         <Param val="1.0" valType="num" updates="constant" name="lineSpacing" />
         <Param val="textbox_2" valType="code" updates="None" name="name" />
         <Param val="" valType="num" updates="constant" name="opacity" />
@@ -180,7 +180,7 @@
         <Param val="Type here..." valType="str" updates="constant" name="placeholder" />
         <Param val="(0, 0)" valType="list" updates="constant" name="pos" />
         <Param val="True" valType="bool" updates="None" name="saveStartStop" />
-        <Param val="(1.2, 0.5)" valType="list" updates="constant" name="size" />
+        <Param val="(1.2, 0.9)" valType="list" updates="constant" name="size" />
         <Param val="" valType="list" updates="constant" name="speechPoint" />
         <Param val="" valType="code" updates="None" name="startEstim" />
         <Param val="time (s)" valType="str" updates="None" name="startType" />
@@ -267,7 +267,7 @@
         <Param val="md" valType="str" updates="None" name="formattingSyntax" />
         <Param val="False" valType="bool" updates="constant" name="italic" />
         <Param val="LTR" valType="str" updates="None" name="languageStyle" />
-        <Param val="0.05" valType="num" updates="constant" name="letterHeight" />
+        <Param val="0.035" valType="num" updates="constant" name="letterHeight" />
         <Param val="1.0" valType="num" updates="constant" name="lineSpacing" />
         <Param val="textbox_3" valType="code" updates="None" name="name" />
         <Param val="" valType="num" updates="constant" name="opacity" />
@@ -277,7 +277,7 @@
         <Param val="Type here..." valType="str" updates="constant" name="placeholder" />
         <Param val="(0, 0)" valType="list" updates="constant" name="pos" />
         <Param val="True" valType="bool" updates="None" name="saveStartStop" />
-        <Param val="(1.2, 0.5)" valType="list" updates="constant" name="size" />
+        <Param val="(1.2, 0.9)" valType="list" updates="constant" name="size" />
         <Param val="" valType="list" updates="constant" name="speechPoint" />
         <Param val="" valType="code" updates="None" name="startEstim" />
         <Param val="time (s)" valType="str" updates="None" name="startType" />
@@ -427,7 +427,7 @@
         <Param val="md" valType="str" updates="None" name="formattingSyntax" />
         <Param val="False" valType="bool" updates="constant" name="italic" />
         <Param val="LTR" valType="str" updates="None" name="languageStyle" />
-        <Param val="0.05" valType="num" updates="constant" name="letterHeight" />
+        <Param val="0.035" valType="num" updates="constant" name="letterHeight" />
         <Param val="1.0" valType="num" updates="constant" name="lineSpacing" />
         <Param val="textbox_4" valType="code" updates="None" name="name" />
         <Param val="" valType="num" updates="constant" name="opacity" />
@@ -437,7 +437,7 @@
         <Param val="Type here..." valType="str" updates="constant" name="placeholder" />
         <Param val="(0, 0)" valType="list" updates="constant" name="pos" />
         <Param val="True" valType="bool" updates="None" name="saveStartStop" />
-        <Param val="(1.2, 0.5)" valType="list" updates="constant" name="size" />
+        <Param val="(1.2, 0.9)" valType="list" updates="constant" name="size" />
         <Param val="" valType="list" updates="constant" name="speechPoint" />
         <Param val="" valType="code" updates="None" name="startEstim" />
         <Param val="time (s)" valType="str" updates="None" name="startType" />
@@ -604,7 +604,7 @@
         <Param val="md" valType="str" updates="None" name="formattingSyntax" />
         <Param val="False" valType="bool" updates="constant" name="italic" />
         <Param val="LTR" valType="str" updates="None" name="languageStyle" />
-        <Param val="0.05" valType="num" updates="constant" name="letterHeight" />
+        <Param val="0.035" valType="num" updates="constant" name="letterHeight" />
         <Param val="1.0" valType="num" updates="constant" name="lineSpacing" />
         <Param val="textbox_7" valType="code" updates="None" name="name" />
         <Param val="" valType="num" updates="constant" name="opacity" />
@@ -614,7 +614,7 @@
         <Param val="Type here..." valType="str" updates="constant" name="placeholder" />
         <Param val="(0, 0)" valType="list" updates="constant" name="pos" />
         <Param val="True" valType="bool" updates="None" name="saveStartStop" />
-        <Param val="(1.2, 0.5)" valType="list" updates="constant" name="size" />
+        <Param val="(1.2, 0.9)" valType="list" updates="constant" name="size" />
         <Param val="" valType="list" updates="constant" name="speechPoint" />
         <Param val="" valType="code" updates="None" name="startEstim" />
         <Param val="time (s)" valType="str" updates="None" name="startType" />

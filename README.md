@@ -96,6 +96,10 @@ The originals are kept untouched outside this repo. These copies differ as follo
 - The practice and main keyboard components now store whether each response was
   correct, and `practiceconditions.csv` gained a `corrAns` column for that.
 - The experiment is named `tl_lexical_decision` instead of `untitled`.
+- The instruction, consent, and debriefing text boxes were half the screen tall and the
+  browser cut off whatever did not fit (including "Press SPACE to continue"). They are
+  now 0.9 of the screen tall with a letter height of 0.035 instead of 0.05. The wording
+  is unchanged.
 - The student's DataPipe Code component is disabled.
 
 ## Privacy
