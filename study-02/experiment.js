@@ -3,7 +3,7 @@
  ****************************/
 
 import { core, data, sound, util, visual, hardware } from '../lib/psychojs-2026.2.2.js';
-import { createDataPipe } from '../shared/datapipe.js';
+import { createDataPipe, lockParticipantCode } from '../shared/datapipe.js';
 const { PsychoJS } = core;
 const { TrialHandler, MultiStairHandler } = data;
 const { Scheduler } = util;
@@ -25,6 +25,9 @@ let PILOTING = util.getUrlParameters().has('__pilotToken');
 const psychoJS = new PsychoJS({
   debug: false
 });
+
+// Unique, uneditable participant code, added by build.py:
+const participantCode = lockParticipantCode(expInfo);
 
 // DataPipe saving, added by build.py:
 const dataPipe = createDataPipe(psychoJS, {
@@ -125,6 +128,7 @@ async function updateInfo() {
 
   // add info from the URL:
   util.addInfoFromUrl(expInfo);
+  expInfo['participant'] = participantCode;  // added by build.py
   
 
   

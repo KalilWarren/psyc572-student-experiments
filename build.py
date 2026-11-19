@@ -92,10 +92,12 @@ def build(folder):
 
     exp_id = cfg.get("datapipe_id", "")
     js = replace_once(js, rf"'\./lib/{re.escape(LIB)}\.js';",
-                      f"'../lib/{LIB}.js';\nimport {{ createDataPipe }} from '../shared/datapipe.js';",
+                      f"'../lib/{LIB}.js';\nimport {{ createDataPipe, lockParticipantCode }} from '../shared/datapipe.js';",
                       "import the DataPipe module")
     js = replace_once(js, r"(const psychoJS = new PsychoJS\(\{[^}]*\}\);)",
-                      "\\1\n\n// DataPipe saving, added by build.py:\n"
+                      "\\1\n\n// Unique, uneditable participant code, added by build.py:\n"
+                      "const participantCode = lockParticipantCode(expInfo);\n"
+                      "\n// DataPipe saving, added by build.py:\n"
                       "const dataPipe = createDataPipe(psychoJS, {\n"
                       f"  experimentID: {json.dumps(exp_id)},\n"
                       "  expName: expName,\n  expInfo: expInfo,\n"
@@ -107,6 +109,9 @@ def build(folder):
     # the manipulation (e.g. "SemanticsvsRhymes"). Show the neutral title instead.
     js = replace_once(js, r"(  dictionary: expInfo,\n  title: )expName",
                       "\\1" + json.dumps(cfg["title"]).replace("\\", "\\\\"), "set the dialog title")
+    js = replace_once(js, r"(\n  util\.addInfoFromUrl\(expInfo\);)",
+                      "\\1\n  expInfo['participant'] = participantCode;  // added by build.py",
+                      "re-apply the participant code")
     if re.search(r"flowScheduler\.add\(\w+LoopEnd\);", js):
         js = replace_once(js, r"(flowScheduler\.add\(\w+LoopEnd\);)",
                           "\\1\nflowScheduler.add(dataPipe.saveStep);  // added by build.py",

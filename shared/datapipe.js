@@ -40,6 +40,37 @@ function showMessage(text) {
   return box;
 }
 
+// Gives this page load its own participant code and stops it being changed.
+// The code is 8 characters drawn with the browser's cryptographic random generator
+// from 31 letters and digits (no 0/O, 1/I/L), so about 850 billion possibilities:
+// two participants getting the same code is not a practical concern. Reloading the
+// page gives a new code. The start dialog shows the code but the box is read-only,
+// and build.py re-applies it after the dialog and after URL parameters are read, so
+// neither typing nor "?participant=..." in the link can replace it.
+export function lockParticipantCode(expInfo) {
+  const alphabet = '23456789ABCDEFGHJKMNPQRSTUVWXYZ';
+  const limit = 256 - (256 % alphabet.length);   // reject bytes that would bias the draw
+  let code = '';
+  while (code.length < 8) {
+    const byte = crypto.getRandomValues(new Uint8Array(1))[0];
+    if (byte < limit) code += alphabet[byte % alphabet.length];
+  }
+  expInfo['participant'] = code;
+
+  const lockField = () => {
+    const input = document.querySelector('input[name="participant"]');
+    if (input && !input.readOnly) {
+      input.value = code;
+      input.readOnly = true;
+      input.tabIndex = -1;
+      input.style.cssText += 'background:#e9e9e9;color:#555;cursor:not-allowed;';
+    }
+  };
+  new MutationObserver(lockField).observe(document.documentElement, { childList: true, subtree: true });
+  lockField();
+  return code;
+}
+
 export function createDataPipe(psychoJS, { experimentID, expName, expInfo, saveIncomplete, next }) {
   let saved = false;
   const configured = Boolean(experimentID) && experimentID !== 'YOUR_ID';

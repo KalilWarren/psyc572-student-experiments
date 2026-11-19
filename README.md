@@ -73,7 +73,10 @@ edit them by hand.
   again when the experiment ends.
 - If it still fails, or `datapipe_id` is empty, the browser downloads the CSV to the
   participant's computer instead, so the data is not lost.
-- The participant ID is a random 6-digit number. No names are collected.
+- Every time the page is opened it gets a new random 8-character participant code
+  (for example `K7QM2XRD`). The start dialog shows it, but it cannot be edited, and a
+  `?participant=` in the link is ignored. Reloading the page gives a new code. No names
+  are collected.
 
 ## What was changed from the students' originals
 
