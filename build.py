@@ -19,6 +19,7 @@ import shutil
 import subprocess
 import sys
 import tempfile
+import xml.etree.ElementTree as ET
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
@@ -76,6 +77,15 @@ def build(folder):
     psyexps = list(folder.glob("*.psyexp"))
     if len(psyexps) != 1:
         fail(f"{folder.name}: expected exactly one .psyexp, found {len(psyexps)}")
+    # PsychoJS has no 'deg' or 'cm' units. Builder's export silently swaps them for
+    # 'height', so a 0.5 deg fixation cross becomes half the screen tall.
+    for comp in ET.parse(psyexps[0]).getroot().iter():
+        for param in comp:
+            if param.get("name") in ("units", "Units") and param.get("val") in (
+                    "deg", "cm", "degFlat", "degFlatPos"):
+                fail(f"{folder.name}: '{comp.get('name') or comp.tag}' uses units "
+                     f"'{param.get('val')}', which do not exist online. In Builder, set its "
+                     "units to 'height' and resize it (1.0 = the full screen height).")
     js = compile_js(psyexps[0])
 
     # Things that cannot work online, caught here instead of in a participant's browser.

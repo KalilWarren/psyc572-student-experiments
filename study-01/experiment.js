@@ -190,7 +190,7 @@ async function experimentInit() {
   focusClock = new util.Clock();
   fixation = new visual.ShapeStim ({
     win: psychoJS.window, name: 'fixation', units : 'height', 
-    vertices: 'cross', size:[0.5, 0.5],
+    vertices: 'cross', size:[0.03, 0.03],
     ori: 0.0, 
     pos: [0, 0], 
     draggable: false, 
@@ -287,7 +287,7 @@ async function experimentInit() {
   focus_2Clock = new util.Clock();
   fixation2 = new visual.ShapeStim ({
     win: psychoJS.window, name: 'fixation2', units : 'height', 
-    vertices: 'cross', size:[0.5, 0.5],
+    vertices: 'cross', size:[0.03, 0.03],
     ori: 0.0, 
     pos: [0, 0], 
     draggable: false, 

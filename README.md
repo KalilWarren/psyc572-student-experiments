@@ -56,7 +56,7 @@ with an `experiment.json` it:
 
 - compiles the `.psyexp` to JavaScript, the same as Builder's "Export HTML";
 - stops with an explanation if the experiment cannot work online: Python code that
-  PsychoPy could not translate to JavaScript, a conditions file outside the folder, a
+  PsychoPy could not translate to JavaScript, sizes in `deg` or `cm` units, a conditions file outside the folder, a
   leftover DataPipe snippet, or a JavaScript syntax error;
 - adds the DataPipe saving from `shared/datapipe.js` and writes `experiment.js` and
   `index.html`.
@@ -86,6 +86,9 @@ The originals are kept untouched outside this repo. These copies differ as follo
 - The loops read `practice.xlsx` and `conditions.xlsx` from the folder instead of
   absolute paths on the student's computer.
 - The student's DataPipe Code component (still set to `YOUR_ID`) is disabled.
+- The fixation cross was 0.5 degrees of visual angle. Degrees do not exist online and
+  the export turned it into half the screen height, so it is now set in `height` units at
+  0.03 (3% of the screen height), about the size it had on the desktop.
 
 **study-02** (transposed-letter lexical decision)
 - The Code component that samples 245 real, 70 TL, and 60 pseudoword trials was Python
