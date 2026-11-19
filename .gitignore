@@ -1,0 +1,8 @@
+# Never publish participant data or PsychoPy's local run files.
+data/
+*.psydat
+*.log
+*_lastrun.py
+*-legacy-browsers.js
+.DS_Store
+__pycache__/

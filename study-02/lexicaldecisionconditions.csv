@@ -1,0 +1,577 @@
+stimulus,condition,corrAns,NLett,base_word_or_sources,OLD20_approx_previous,OLD20_SCOPE,graphotactic_SCOPE,phonotactic_SCOPE,validation_status
+across,real,r,6,across,,,,,Existing real-word pool
+afraid,real,r,6,afraid,,,,,Existing real-word pool
+after,real,r,5,after,,,,,Existing real-word pool
+agents,real,r,6,agents,,,,,Existing real-word pool
+agree,real,r,5,agree,,,,,Existing real-word pool
+alert,real,r,5,alert,,,,,Existing real-word pool
+allow,real,r,5,allow,,,,,Existing real-word pool
+ally,real,r,4,ally,,,,,Existing real-word pool
+also,real,r,4,also,,,,,Existing real-word pool
+always,real,r,6,always,,,,,Existing real-word pool
+amen,real,r,4,amen,,,,,Existing real-word pool
+among,real,r,5,among,,,,,Existing real-word pool
+ancient,real,r,7,ancient,,,,,Existing real-word pool
+angel,real,r,5,angel,,,,,Existing real-word pool
+animals,real,r,7,animals,,,,,Existing real-word pool
+answer,real,r,6,answer,,,,,Existing real-word pool
+answers,real,r,7,answers,,,,,Existing real-word pool
+anymore,real,r,7,anymore,,,,,Existing real-word pool
+anyone,real,r,6,anyone,,,,,Existing real-word pool
+anyway,real,r,6,anyway,,,,,Existing real-word pool; content screened
+apart,real,r,5,apart,,,,,Existing real-word pool
+arms,real,r,4,arms,,,,,Existing real-word pool
+around,real,r,6,around,,,,,Existing real-word pool
+arrest,real,r,6,arrest,,,,,Existing real-word pool
+artist,real,r,6,artist,,,,,Existing real-word pool
+assume,real,r,6,assume,,,,,Existing real-word pool
+attack,real,r,6,attack,,,,,Existing real-word pool
+aunt,real,r,4,aunt,,,,,Existing real-word pool; content screened
+aware,real,r,5,aware,,,,,Existing real-word pool
+awesome,real,r,7,awesome,,,,,Existing real-word pool
+band,real,r,4,band,,,,,Existing real-word pool
+bank,real,r,4,bank,,,,,Existing real-word pool
+bear,real,r,4,bear,,,,,Existing real-word pool
+bedroom,real,r,7,bedroom,,,,,Existing real-word pool
+began,real,r,5,began,,,,,Existing real-word pool
+believe,real,r,7,believe,,,,,Existing real-word pool
+bell,real,r,4,bell,,,,,Existing real-word pool
+belt,real,r,4,belt,,,,,Existing real-word pool
+best,real,r,4,best,,,,,Existing real-word pool
+black,real,r,5,black,,,,,Existing real-word pool
+blue,real,r,4,blue,,,,,Existing real-word pool
+bobby,real,r,5,bobby,,,,,Existing real-word pool
+bone,real,r,4,bone,,,,,Existing real-word pool
+bones,real,r,5,bones,,,,,Existing real-word pool
+books,real,r,5,books,,,,,Existing real-word pool
+boom,real,r,4,boom,,,,,Existing real-word pool
+borrow,real,r,6,borrow,,,,,Existing real-word pool
+boss,real,r,4,boss,,,,,Existing real-word pool
+bottom,real,r,6,bottom,,,,,Existing real-word pool
+brad,real,r,4,brad,,,,,Existing real-word pool
+brains,real,r,6,brains,,,,,Existing real-word pool; content screened
+bread,real,r,5,bread,,,,,Existing real-word pool
+break,real,r,5,break,,,,,Existing real-word pool
+breath,real,r,6,breath,,,,,Existing real-word pool
+breathe,real,r,7,breathe,,,,,Existing real-word pool
+brings,real,r,6,brings,,,,,Existing real-word pool
+buddy,real,r,5,buddy,,,,,Existing real-word pool
+built,real,r,5,built,,,,,Existing real-word pool
+burn,real,r,4,burn,,,,,Existing real-word pool
+butter,real,r,6,butter,,,,,Existing real-word pool
+cage,real,r,4,cage,,,,,Existing real-word pool
+calls,real,r,5,calls,,,,,Existing real-word pool
+calm,real,r,4,calm,,,,,Existing real-word pool
+camp,real,r,4,camp,,,,,Existing real-word pool
+candy,real,r,5,candy,,,,,Existing real-word pool
+cars,real,r,4,cars,,,,,Existing real-word pool
+carter,real,r,6,carter,,,,,Existing real-word pool
+cases,real,r,5,cases,,,,,Existing real-word pool
+cast,real,r,4,cast,,,,,Existing real-word pool
+catch,real,r,5,catch,,,,,Existing real-word pool; content screened
+century,real,r,7,century,,,,,Existing real-word pool
+chain,real,r,5,chain,,,,,Existing real-word pool
+chance,real,r,6,chance,,,,,Existing real-word pool
+chances,real,r,7,chances,,,,,Existing real-word pool
+check,real,r,5,check,,,,,Existing real-word pool
+chinese,real,r,7,chinese,,,,,Existing real-word pool
+choice,real,r,6,choice,,,,,Existing real-word pool
+church,real,r,6,church,,,,,Existing real-word pool
+clear,real,r,5,clear,,,,,Existing real-word pool
+clients,real,r,7,clients,,,,,Existing real-word pool
+closed,real,r,6,closed,,,,,Existing real-word pool
+closer,real,r,6,closer,,,,,Existing real-word pool
+closing,real,r,7,closing,,,,,Existing real-word pool
+coat,real,r,4,coat,,,,,Existing real-word pool
+cole,real,r,4,cole,,,,,Existing real-word pool
+college,real,r,7,college,,,,,Existing real-word pool
+colonel,real,r,7,colonel,,,,,Existing real-word pool
+common,real,r,6,common,,,,,Existing real-word pool
+company,real,r,7,company,,,,,Existing real-word pool
+concern,real,r,7,concern,,,,,Existing real-word pool
+contact,real,r,7,contact,,,,,Existing real-word pool
+control,real,r,7,control,,,,,Existing real-word pool
+cool,real,r,4,cool,,,,,Existing real-word pool
+corner,real,r,6,corner,,,,,Existing real-word pool
+count,real,r,5,count,,,,,Existing real-word pool
+course,real,r,6,course,,,,,Existing real-word pool
+cream,real,r,5,cream,,,,,Existing real-word pool
+credit,real,r,6,credit,,,,,Existing real-word pool
+cute,real,r,4,cute,,,,,Existing real-word pool
+danger,real,r,6,danger,,,,,Existing real-word pool
+data,real,r,4,data,,,,,Existing real-word pool
+dawn,real,r,4,dawn,,,,,Existing real-word pool
+deal,real,r,4,deal,,,,,Existing real-word pool
+dean,real,r,4,dean,,,,,Existing real-word pool
+decided,real,r,7,decided,,,,,Existing real-word pool
+deserve,real,r,7,deserve,,,,,Existing real-word pool
+destroy,real,r,7,destroy,,,,,Existing real-word pool
+diamond,real,r,7,diamond,,,,,Existing real-word pool; content screened
+direct,real,r,6,direct,,,,,Existing real-word pool
+dirt,real,r,4,dirt,,,,,Existing real-word pool
+discuss,real,r,7,discuss,,,,,Existing real-word pool
+does,real,r,4,does,,,,,Existing real-word pool
+doing,real,r,5,doing,,,,,Existing real-word pool
+door,real,r,4,door,,,,,Existing real-word pool
+dreams,real,r,6,dreams,,,,,Existing real-word pool
+dress,real,r,5,dress,,,,,Existing real-word pool
+drive,real,r,5,drive,,,,,Existing real-word pool
+dropped,real,r,7,dropped,,,,,Existing real-word pool
+duck,real,r,4,duck,,,,,Existing real-word pool
+dump,real,r,4,dump,,,,,Existing real-word pool
+earlier,real,r,7,earlier,,,,,Existing real-word pool
+early,real,r,5,early,,,,,Existing real-word pool
+ears,real,r,4,ears,,,,,Existing real-word pool
+easier,real,r,6,easier,,,,,Existing real-word pool
+easily,real,r,6,easily,,,,,Existing real-word pool
+east,real,r,4,east,,,,,Existing real-word pool
+easy,real,r,4,easy,,,,,Existing real-word pool
+edge,real,r,4,edge,,,,,Existing real-word pool
+eight,real,r,5,eight,,,,,Existing real-word pool
+either,real,r,6,either,,,,,Existing real-word pool
+else,real,r,4,else,,,,,Existing real-word pool
+empty,real,r,5,empty,,,,,Existing real-word pool
+event,real,r,5,event,,,,,Existing real-word pool
+example,real,r,7,example,,,,,Existing real-word pool; content screened
+excited,real,r,7,excited,,,,,Existing real-word pool
+extra,real,r,5,extra,,,,,Existing real-word pool
+face,real,r,4,face,,,,,Existing real-word pool
+fact,real,r,4,fact,,,,,Existing real-word pool
+failure,real,r,7,failure,,,,,Existing real-word pool
+family,real,r,6,family,,,,,Existing real-word pool
+famous,real,r,6,famous,,,,,Existing real-word pool; content screened
+fear,real,r,4,fear,,,,,Existing real-word pool
+feel,real,r,4,feel,,,,,Existing real-word pool
+field,real,r,5,field,,,,,Existing real-word pool
+figure,real,r,6,figure,,,,,Existing real-word pool
+finally,real,r,7,finally,,,,,Existing real-word pool
+fine,real,r,4,fine,,,,,Existing real-word pool
+finger,real,r,6,finger,,,,,Existing real-word pool
+firm,real,r,4,firm,,,,,Existing real-word pool
+flesh,real,r,5,flesh,,,,,Existing real-word pool
+floor,real,r,5,floor,,,,,Existing real-word pool
+flowers,real,r,7,flowers,,,,,Existing real-word pool
+food,real,r,4,food,,,,,Existing real-word pool
+foot,real,r,4,foot,,,,,Existing real-word pool
+form,real,r,4,form,,,,,Existing real-word pool
+found,real,r,5,found,,,,,Existing real-word pool
+france,real,r,6,france,,,,,Existing real-word pool
+freedom,real,r,7,freedom,,,,,Existing real-word pool
+from,real,r,4,from,,,,,Existing real-word pool
+fruit,real,r,5,fruit,,,,,Existing real-word pool
+games,real,r,5,games,,,,,Existing real-word pool
+gave,real,r,4,gave,,,,,Existing real-word pool
+general,real,r,7,general,,,,,Existing real-word pool
+george,real,r,6,george,,,,,Existing real-word pool
+giving,real,r,6,giving,,,,,Existing real-word pool
+glasses,real,r,7,glasses,,,,,Existing real-word pool
+gold,real,r,4,gold,,,,,Existing real-word pool
+golf,real,r,4,golf,,,,,Existing real-word pool
+good,real,r,4,good,,,,,Existing real-word pool
+goodbye,real,r,7,goodbye,,,,,Existing real-word pool
+gotta,real,r,5,gotta,,,,,Existing real-word pool
+grandma,real,r,7,grandma,,,,,Existing real-word pool
+grave,real,r,5,grave,,,,,Existing real-word pool
+green,real,r,5,green,,,,,Existing real-word pool
+growing,real,r,7,growing,,,,,Existing real-word pool
+guards,real,r,6,guards,,,,,Existing real-word pool
+hank,real,r,4,hank,,,,,Existing real-word pool
+health,real,r,6,health,,,,,Existing real-word pool
+healthy,real,r,7,healthy,,,,,Existing real-word pool
+hearts,real,r,6,hearts,,,,,Existing real-word pool; content screened
+heat,real,r,4,heat,,,,,Existing real-word pool
+heaven,real,r,6,heaven,,,,,Existing real-word pool
+held,real,r,4,held,,,,,Existing real-word pool
+helping,real,r,7,helping,,,,,Existing real-word pool
+here,real,r,4,here,,,,,Existing real-word pool
+high,real,r,4,high,,,,,Existing real-word pool
+higher,real,r,6,higher,,,,,Existing real-word pool
+hire,real,r,4,hire,,,,,Existing real-word pool
+hold,real,r,4,hold,,,,,Existing real-word pool
+home,real,r,4,home,,,,,Existing real-word pool
+honest,real,r,6,honest,,,,,Existing real-word pool
+honey,real,r,5,honey,,,,,Existing real-word pool
+honor,real,r,5,honor,,,,,Existing real-word pool
+horn,real,r,4,horn,,,,,Existing real-word pool
+house,real,r,5,house,,,,,Existing real-word pool
+huge,real,r,4,huge,,,,,Existing real-word pool
+human,real,r,5,human,,,,,Existing real-word pool
+hundred,real,r,7,hundred,,,,,Existing real-word pool
+inside,real,r,6,inside,,,,,Existing real-word pool
+jane,real,r,4,jane,,,,,Existing real-word pool
+jealous,real,r,7,jealous,,,,,Existing real-word pool; content screened
+john,real,r,4,john,,,,,Existing real-word pool
+joint,real,r,5,joint,,,,,Existing real-word pool
+joke,real,r,4,joke,,,,,Existing real-word pool
+jones,real,r,5,jones,,,,,Existing real-word pool; content screened
+junior,real,r,6,junior,,,,,Existing real-word pool
+jury,real,r,4,jury,,,,,Existing real-word pool; content screened
+just,real,r,4,just,,,,,Existing real-word pool
+justice,real,r,7,justice,,,,,Existing real-word pool
+keep,real,r,4,keep,,,,,Existing real-word pool
+kept,real,r,4,kept,,,,,Existing real-word pool
+kinda,real,r,5,kinda,,,,,Existing real-word pool
+king,real,r,4,king,,,,,Existing real-word pool
+kitchen,real,r,7,kitchen,,,,,Existing real-word pool
+knocked,real,r,7,knocked,,,,,Existing real-word pool
+known,real,r,5,known,,,,,Existing real-word pool
+large,real,r,5,large,,,,,Existing real-word pool
+late,real,r,4,late,,,,,Existing real-word pool
+leader,real,r,6,leader,,,,,Existing real-word pool
+learned,real,r,7,learned,,,,,Existing real-word pool
+leave,real,r,5,leave,,,,,Existing real-word pool
+legal,real,r,5,legal,,,,,Existing real-word pool
+letters,real,r,7,letters,,,,,Existing real-word pool
+level,real,r,5,level,,,,,Existing real-word pool
+license,real,r,7,license,,,,,Existing real-word pool; content screened
+lies,real,r,4,lies,,,,,Existing real-word pool
+lips,real,r,4,lips,,,,,Existing real-word pool
+list,real,r,4,list,,,,,Existing real-word pool
+little,real,r,6,little,,,,,Existing real-word pool
+live,real,r,4,live,,,,,Existing real-word pool
+lives,real,r,5,lives,,,,,Existing real-word pool
+living,real,r,6,living,,,,,Existing real-word pool
+load,real,r,4,load,,,,,Existing real-word pool
+local,real,r,5,local,,,,,Existing real-word pool
+lock,real,r,4,lock,,,,,Existing real-word pool
+look,real,r,4,look,,,,,Existing real-word pool
+looking,real,r,7,looking,,,,,Existing real-word pool
+lucky,real,r,5,lucky,,,,,Existing real-word pool
+madam,real,r,5,madam,,,,,Existing real-word pool
+mail,real,r,4,mail,,,,,Existing real-word pool
+majesty,real,r,7,majesty,,,,,Existing real-word pool
+manager,real,r,7,manager,,,,,Existing real-word pool
+marks,real,r,5,marks,,,,,Existing real-word pool
+marry,real,r,5,marry,,,,,Existing real-word pool
+mate,real,r,4,mate,,,,,Existing real-word pool; content screened
+matter,real,r,6,matter,,,,,Existing real-word pool
+maybe,real,r,5,maybe,,,,,Existing real-word pool
+mayor,real,r,5,mayor,,,,,Existing real-word pool
+meaning,real,r,7,meaning,,,,,Existing real-word pool
+meat,real,r,4,meat,,,,,Existing real-word pool
+meet,real,r,4,meet,,,,,Existing real-word pool
+mercy,real,r,5,mercy,,,,,Existing real-word pool
+merry,real,r,5,merry,,,,,Existing real-word pool
+might,real,r,5,might,,,,,Existing real-word pool
+mighty,real,r,6,mighty,,,,,Existing real-word pool; content screened
+mind,real,r,4,mind,,,,,Existing real-word pool
+mine,real,r,4,mine,,,,,Existing real-word pool
+mission,real,r,7,mission,,,,,Existing real-word pool
+mistake,real,r,7,mistake,,,,,Existing real-word pool
+mixed,real,r,5,mixed,,,,,Existing real-word pool
+monkey,real,r,6,monkey,,,,,Existing real-word pool
+monster,real,r,7,monster,,,,,Existing real-word pool
+moon,real,r,4,moon,,,,,Existing real-word pool
+most,real,r,4,most,,,,,Existing real-word pool
+mostly,real,r,6,mostly,,,,,Existing real-word pool
+mother,real,r,6,mother,,,,,Existing real-word pool; content screened
+moved,real,r,5,moved,,,,,Existing real-word pool
+near,real,r,4,near,,,,,Existing real-word pool
+nearly,real,r,6,nearly,,,,,Existing real-word pool
+neck,real,r,4,neck,,,,,Existing real-word pool
+neither,real,r,7,neither,,,,,Existing real-word pool
+nick,real,r,4,nick,,,,,Existing real-word pool
+north,real,r,5,north,,,,,Existing real-word pool
+nose,real,r,4,nose,,,,,Existing real-word pool
+note,real,r,4,note,,,,,Existing real-word pool
+nothing,real,r,7,nothing,,,,,Existing real-word pool
+notice,real,r,6,notice,,,,,Existing real-word pool
+number,real,r,6,number,,,,,Existing real-word pool
+often,real,r,5,often,,,,,Existing real-word pool
+okay,real,r,4,okay,,,,,Existing real-word pool
+ones,real,r,4,ones,,,,,Existing real-word pool
+opening,real,r,7,opening,,,,,Existing real-word pool
+opinion,real,r,7,opinion,,,,,Existing real-word pool; content screened
+ordered,real,r,7,ordered,,,,,Existing real-word pool
+orders,real,r,6,orders,,,,,Existing real-word pool
+others,real,r,6,others,,,,,Existing real-word pool
+ours,real,r,4,ours,,,,,Existing real-word pool
+paint,real,r,5,paint,,,,,Existing real-word pool
+pardon,real,r,6,pardon,,,,,Existing real-word pool
+park,real,r,4,park,,,,,Existing real-word pool
+passing,real,r,7,passing,,,,,Existing real-word pool
+passion,real,r,7,passion,,,,,Existing real-word pool
+penny,real,r,5,penny,,,,,Existing real-word pool
+person,real,r,6,person,,,,,Existing real-word pool
+peter,real,r,5,peter,,,,,Existing real-word pool; content screened
+phone,real,r,5,phone,,,,,Existing real-word pool
+photos,real,r,6,photos,,,,,Existing real-word pool
+pick,real,r,4,pick,,,,,Existing real-word pool; content screened
+picking,real,r,7,picking,,,,,Existing real-word pool
+piper,real,r,5,piper,,,,,Existing real-word pool
+plan,real,r,4,plan,,,,,Existing real-word pool
+plate,real,r,5,plate,,,,,Existing real-word pool
+played,real,r,6,played,,,,,Existing real-word pool
+please,real,r,6,please,,,,,Existing real-word pool
+police,real,r,6,police,,,,,Existing real-word pool
+policy,real,r,6,policy,,,,,Existing real-word pool
+pool,real,r,4,pool,,,,,Existing real-word pool
+potter,real,r,6,potter,,,,,Existing real-word pool
+pounds,real,r,6,pounds,,,,,Existing real-word pool
+power,real,r,5,power,,,,,Existing real-word pool
+present,real,r,7,present,,,,,Existing real-word pool
+private,real,r,7,private,,,,,Existing real-word pool
+proceed,real,r,7,proceed,,,,,Existing real-word pool
+pull,real,r,4,pull,,,,,Existing real-word pool
+push,real,r,4,push,,,,,Existing real-word pool
+quarter,real,r,7,quarter,,,,,Existing real-word pool
+raise,real,r,5,raise,,,,,Existing real-word pool
+raised,real,r,6,raised,,,,,Existing real-word pool
+rare,real,r,4,rare,,,,,Existing real-word pool
+real,real,r,4,real,,,,,Existing real-word pool
+really,real,r,6,really,,,,,Existing real-word pool
+release,real,r,7,release,,,,,Existing real-word pool
+remain,real,r,6,remain,,,,,Existing real-word pool
+report,real,r,6,report,,,,,Existing real-word pool
+rest,real,r,4,rest,,,,,Existing real-word pool
+result,real,r,6,result,,,,,Existing real-word pool
+right,real,r,5,right,,,,,Existing real-word pool
+rings,real,r,5,rings,,,,,Existing real-word pool
+risk,real,r,4,risk,,,,,Existing real-word pool
+rock,real,r,4,rock,,,,,Existing real-word pool
+roll,real,r,4,roll,,,,,Existing real-word pool
+roof,real,r,4,roof,,,,,Existing real-word pool
+room,real,r,4,room,,,,,Existing real-word pool
+rose,real,r,4,rose,,,,,Existing real-word pool
+route,real,r,5,route,,,,,Existing real-word pool
+rude,real,r,4,rude,,,,,Existing real-word pool
+rules,real,r,5,rules,,,,,Existing real-word pool
+running,real,r,7,running,,,,,Existing real-word pool
+rush,real,r,4,rush,,,,,Existing real-word pool
+safe,real,r,4,safe,,,,,Existing real-word pool
+saying,real,r,6,saying,,,,,Existing real-word pool
+scared,real,r,6,scared,,,,,Existing real-word pool
+scream,real,r,6,scream,,,,,Existing real-word pool
+second,real,r,6,second,,,,,Existing real-word pool
+seemed,real,r,6,seemed,,,,,Existing real-word pool
+sense,real,r,5,sense,,,,,Existing real-word pool
+shame,real,r,5,shame,,,,,Existing real-word pool
+shift,real,r,5,shift,,,,,Existing real-word pool
+shine,real,r,5,shine,,,,,Existing real-word pool
+shoe,real,r,4,shoe,,,,,Existing real-word pool
+side,real,r,4,side,,,,,Existing real-word pool
+signed,real,r,6,signed,,,,,Existing real-word pool
+silence,real,r,7,silence,,,,,Existing real-word pool
+sitting,real,r,7,sitting,,,,,Existing real-word pool
+slow,real,r,4,slow,,,,,Existing real-word pool
+slowly,real,r,6,slowly,,,,,Existing real-word pool
+small,real,r,5,small,,,,,Existing real-word pool
+smile,real,r,5,smile,,,,,Existing real-word pool
+society,real,r,7,society,,,,,Existing real-word pool
+somehow,real,r,7,somehow,,,,,Existing real-word pool
+song,real,r,4,song,,,,,Existing real-word pool
+songs,real,r,5,songs,,,,,Existing real-word pool
+soon,real,r,4,soon,,,,,Existing real-word pool
+spare,real,r,5,spare,,,,,Existing real-word pool
+special,real,r,7,special,,,,,Existing real-word pool
+spent,real,r,5,spent,,,,,Existing real-word pool
+spoke,real,r,5,spoke,,,,,Existing real-word pool
+spoken,real,r,6,spoken,,,,,Existing real-word pool; content screened
+sports,real,r,6,sports,,,,,Existing real-word pool
+staff,real,r,5,staff,,,,,Existing real-word pool
+stairs,real,r,6,stairs,,,,,Existing real-word pool
+stars,real,r,5,stars,,,,,Existing real-word pool
+states,real,r,6,states,,,,,Existing real-word pool
+stock,real,r,5,stock,,,,,Existing real-word pool
+streets,real,r,7,streets,,,,,Existing real-word pool
+stuck,real,r,5,stuck,,,,,Existing real-word pool
+stuff,real,r,5,stuff,,,,,Existing real-word pool
+style,real,r,5,style,,,,,Existing real-word pool
+success,real,r,7,success,,,,,Existing real-word pool
+summer,real,r,6,summer,,,,,Existing real-word pool
+suspect,real,r,7,suspect,,,,,Existing real-word pool
+table,real,r,5,table,,,,,Existing real-word pool
+tail,real,r,4,tail,,,,,Existing real-word pool
+talking,real,r,7,talking,,,,,Existing real-word pool
+target,real,r,6,target,,,,,Existing real-word pool
+taught,real,r,6,taught,,,,,Existing real-word pool
+team,real,r,4,team,,,,,Existing real-word pool
+their,real,r,5,their,,,,,Existing real-word pool
+then,real,r,4,then,,,,,Existing real-word pool; content screened
+thief,real,r,5,thief,,,,,Existing real-word pool
+thou,real,r,4,thou,,,,,Existing real-word pool
+though,real,r,6,though,,,,,Existing real-word pool
+threw,real,r,5,threw,,,,,Existing real-word pool
+thrown,real,r,6,thrown,,,,,Existing real-word pool
+ticket,real,r,6,ticket,,,,,Existing real-word pool
+tiny,real,r,4,tiny,,,,,Existing real-word pool
+toast,real,r,5,toast,,,,,Existing real-word pool
+told,real,r,4,told,,,,,Existing real-word pool
+tour,real,r,4,tour,,,,,Existing real-word pool
+tower,real,r,5,tower,,,,,Existing real-word pool
+tried,real,r,5,tried,,,,,Existing real-word pool
+trouble,real,r,7,trouble,,,,,Existing real-word pool
+truck,real,r,5,truck,,,,,Existing real-word pool
+trunk,real,r,4,trunk,,,,,Existing real-word pool
+truly,real,r,5,truly,,,,,Existing real-word pool
+turkey,real,r,6,turkey,,,,,Existing real-word pool
+turning,real,r,7,turning,,,,,Existing real-word pool
+turns,real,r,5,turns,,,,,Existing real-word pool
+unit,real,r,4,unit,,,,,Existing real-word pool
+united,real,r,6,united,,,,,Existing real-word pool
+until,real,r,5,until,,,,,Existing real-word pool
+valley,real,r,6,valley,,,,,Existing real-word pool
+video,real,r,5,video,,,,,Existing real-word pool
+view,real,r,4,view,,,,,Existing real-word pool; content screened
+vision,real,r,6,vision,,,,,Existing real-word pool
+voice,real,r,5,voice,,,,,Existing real-word pool
+walls,real,r,5,walls,,,,,Existing real-word pool
+wanting,real,r,7,wanting,,,,,Existing real-word pool
+wearing,real,r,7,wearing,,,,,Existing real-word pool
+week,real,r,4,week,,,,,Existing real-word pool
+wheel,real,r,5,wheel,,,,,Existing real-word pool; content screened
+whoa,real,r,4,whoa,,,,,Existing real-word pool
+wind,real,r,4,wind,,,,,Existing real-word pool
+winning,real,r,7,winning,,,,,Existing real-word pool
+within,real,r,6,within,,,,,Existing real-word pool
+women,real,r,5,women,,,,,Existing real-word pool
+wonder,real,r,6,wonder,,,,,Existing real-word pool
+wood,real,r,4,wood,,,,,Existing real-word pool
+wore,real,r,4,wore,,,,,Existing real-word pool
+working,real,r,7,working,,,,,Existing real-word pool
+worse,real,r,5,worse,,,,,Existing real-word pool
+young,real,r,5,young,,,,,Existing real-word pool; content screened
+aksing,TL,n,6,asking,2,,,,Medium approximate OLD20; SCOPE validation needed
+asdie,TL,n,5,aside,1.9,,,,Medium approximate OLD20; SCOPE validation needed
+bornig,TL,n,6,boring,1.9,,,,Medium approximate OLD20; SCOPE validation needed
+bruied,TL,n,6,buried,1.95,,,,Medium approximate OLD20; SCOPE validation needed
+bsae,TL,n,4,base,1.9,,,,Medium approximate OLD20; SCOPE validation needed
+bsoton,TL,n,6,boston,1.9,,,,Medium approximate OLD20; SCOPE validation needed
+bucnh,TL,n,5,bunch,1.95,,,,Medium approximate OLD20; SCOPE validation needed
+burend,TL,n,6,burned,1.9,,,,Medium approximate OLD20; SCOPE validation needed
+cihef,TL,n,5,chief,1.95,,,,Medium approximate OLD20; SCOPE validation needed
+claling,TL,n,7,calling,1.95,,,,Medium approximate OLD20; SCOPE validation needed
+cloest,TL,n,6,closet,1.95,,,,Medium approximate OLD20; SCOPE validation needed
+clsas,TL,n,5,class,1.9,,,,Medium approximate OLD20; SCOPE validation needed
+cmaera,TL,n,6,camera,2,,,,Medium approximate OLD20; SCOPE validation needed
+csae,TL,n,4,case,1.9,,,,Previously medium OLD20 (approximate); content screened
+ctas,TL,n,4,cats,1.9,,,,Medium approximate OLD20; SCOPE validation needed
+cuort,TL,n,5,court,1.9,,,,Medium approximate OLD20; SCOPE validation needed
+dirnks,TL,n,6,drinks,1.9,,,,Medium approximate OLD20; SCOPE validation needed
+drnik,TL,n,5,drink,2,,,,Medium approximate OLD20; SCOPE validation needed
+dzoen,TL,n,5,dozen,2,,,,Medium approximate OLD20; SCOPE validation needed
+eatrh,TL,n,5,earth,2,,,,Medium approximate OLD20; SCOPE validation needed
+fnial,TL,n,5,final,1.95,,,,Medium approximate OLD20; SCOPE validation needed
+forogt,TL,n,6,forgot,2,,,,Medium approximate OLD20; SCOPE validation needed
+froces,TL,n,6,forces,1.95,,,,Medium approximate OLD20; SCOPE validation needed
+gtae,TL,n,4,gate,1.9,,,,Medium approximate OLD20; SCOPE validation needed
+hvaen,TL,n,5,haven,1.95,,,,Medium approximate OLD20; SCOPE validation needed
+itno,TL,n,4,into,1.9,,,,Medium approximate OLD20; SCOPE validation needed
+jsoh,TL,n,4,josh,1.95,,,,Medium approximate OLD20; SCOPE validation needed
+klils,TL,n,5,kills,2,,,,Medium approximate OLD20; SCOPE validation needed
+laetly,TL,n,6,lately,2,,,,Medium approximate OLD20; SCOPE validation needed
+levaing,TL,n,7,leaving,1.95,,,,Medium approximate OLD20; SCOPE validation needed
+lnog,TL,n,4,long,1.9,,,,Medium approximate OLD20; SCOPE validation needed
+loenly,TL,n,6,lonely,2,,,,Medium approximate OLD20; SCOPE validation needed
+lsoe,TL,n,4,lose,1.95,,,,Medium approximate OLD20; SCOPE validation needed
+lsoer,TL,n,5,loser,2,,,,Medium approximate OLD20; SCOPE validation needed
+ltaer,TL,n,5,later,2,,,,Medium approximate OLD20; SCOPE validation needed
+madmae,TL,n,6,madame,1.95,,,,Medium approximate OLD20; SCOPE validation needed
+mdeia,TL,n,5,media,2,,,,Medium approximate OLD20; SCOPE validation needed
+meteing,TL,n,7,meeting,1.95,,,,Previously medium OLD20 (approximate); content screened
+mlik,TL,n,4,milk,1.95,,,,Medium approximate OLD20; SCOPE validation needed
+nedeed,TL,n,6,needed,1.95,,,,Medium approximate OLD20; SCOPE validation needed
+nmaes,TL,n,5,names,1.95,,,,Medium approximate OLD20; SCOPE validation needed
+nnoe,TL,n,4,none,1.95,,,,Medium approximate OLD20; SCOPE validation needed
+npoe,TL,n,4,nope,1.9,,,,Medium approximate OLD20; SCOPE validation needed
+nvay,TL,n,4,navy,1.95,,,,Medium approximate OLD20; SCOPE validation needed
+ocaen,TL,n,5,ocean,1.9,,,,Medium approximate OLD20; SCOPE validation needed
+ofefr,TL,n,5,offer,1.95,,,,Medium approximate OLD20; SCOPE validation needed
+picee,TL,n,5,piece,1.95,,,,Medium approximate OLD20; SCOPE validation needed
+qeuen,TL,n,5,queen,2,,,,Medium approximate OLD20; SCOPE validation needed
+qiuck,TL,n,5,quick,2,,,,Medium approximate OLD20; SCOPE validation needed
+rcoks,TL,n,5,rocks,1.95,,,,Medium approximate OLD20; SCOPE validation needed
+satnds,TL,n,6,stands,1.95,,,,Medium approximate OLD20; SCOPE validation needed
+serevd,TL,n,6,served,2,,,,Medium approximate OLD20; SCOPE validation needed
+shpae,TL,n,5,shape,2,,,,Medium approximate OLD20; SCOPE validation needed
+shroe,TL,n,5,shore,1.9,,,,Medium approximate OLD20; SCOPE validation needed
+sihp,TL,n,4,ship,1.9,,,,Medium approximate OLD20; SCOPE validation needed
+sinlge,TL,n,6,single,1.95,,,,Medium approximate OLD20; SCOPE validation needed
+smrat,TL,n,5,smart,1.95,,,,Medium approximate OLD20; SCOPE validation needed
+sohck,TL,n,5,shock,1.95,,,,Previously medium OLD20 (approximate); content screened
+speceh,TL,n,6,speech,2,,,,Medium approximate OLD20; SCOPE validation needed
+srory,TL,n,5,sorry,1.9,,,,Medium approximate OLD20; SCOPE validation needed
+stloe,TL,n,5,stole,1.95,,,,Medium approximate OLD20; SCOPE validation needed
+stnoe,TL,n,5,stone,2,,,,Medium approximate OLD20; SCOPE validation needed
+suqad,TL,n,5,squad,2,,,,Medium approximate OLD20; SCOPE validation needed
+tahnk,TL,n,5,thank,1.95,,,,Medium approximate OLD20; SCOPE validation needed
+teteh,TL,n,5,teeth,1.9,,,,Medium approximate OLD20; SCOPE validation needed
+thnigs,TL,n,6,things,2,,,,Medium approximate OLD20; SCOPE validation needed
+tkae,TL,n,4,take,1.95,,,,Medium approximate OLD20; SCOPE validation needed
+uspet,TL,n,5,upset,2,,,,Medium approximate OLD20; SCOPE validation needed
+wdeding,TL,n,7,wedding,1.95,,,,Medium approximate OLD20; SCOPE validation needed
+wehther,TL,n,7,whether,1.9,,,,Medium approximate OLD20; SCOPE validation needed
+wrietr,TL,n,6,writer,2,,,,Previously medium OLD20 (approximate); content screened
+zreo,TL,n,4,zero,1.9,,,,Medium approximate OLD20; SCOPE validation needed
+affice,pseudoword,n,6,afraid + office,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+afraim,pseudoword,n,6,afraid + victim,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+afrope,pseudoword,n,6,afraid + europe,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+ampt,pseudoword,n,4,amen + kept,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+anecial,pseudoword,n,7,ancient + special,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+augh,pseudoword,n,4,aunt + high,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+bilm,pseudoword,n,4,bill + calm,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+bobod,pseudoword,n,5,bobby + blood,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+briff,pseudoword,n,5,bride + staff,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+brips,pseudoword,n,5,brave + ships,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+budeo,pseudoword,n,5,buddy + video,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+burcy,pseudoword,n,5,buddy + mercy,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+celps,pseudoword,n,5,cents + helps,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+clawn,pseudoword,n,5,claim + grown,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+criff,pseudoword,n,5,crime + staff,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+cusy,pseudoword,n,4,cute + busy,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+cutt,pseudoword,n,4,cute + butt,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+cuty,pseudoword,n,4,cute + city,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+doctim,pseudoword,n,6,doctor + victim,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+drowly,pseudoword,n,6,dreams + slowly,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+dusy,pseudoword,n,4,duck + busy,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+effice,pseudoword,n,6,Generated from pseudoword pattern,,,,,Generated candidate; lexical and probability validation required
+eigne,pseudoword,n,5,eight + alone,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+eirld,pseudoword,n,5,eight + world,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+elps,pseudoword,n,4,else + lips,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+eurket,pseudoword,n,6,europe + ticket,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+euroct,pseudoword,n,6,europe + direct,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+evief,pseudoword,n,5,event + thief,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+exama,pseudoword,n,5,extra + drama,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+expete,pseudoword,n,6,expert + estate,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+extry,pseudoword,n,5,extra + carry,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+fems,pseudoword,n,4,fear + arms,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+fleys,pseudoword,n,5,flesh + plays,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+forcy,pseudoword,n,5,found + mercy,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+frigue,pseudoword,n,6,friend + tongue,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+frowly,pseudoword,n,6,france + slowly,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+giarp,pseudoword,n,5,giant + sharp,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+gicky,pseudoword,n,5,giant + lucky,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+gload,pseudoword,n,5,glory + bread,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+hopipe,pseudoword,n,6,hoping + europe,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+humbe,pseudoword,n,5,human + maybe,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+humme,pseudoword,n,5,human + crime,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+hunicy,pseudoword,n,6,hungry + policy,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+jaim,pseudoword,n,4,jail + swim,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+jeamals,pseudoword,n,7,jealous + animals,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+jusy,pseudoword,n,4,jury + busy,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+lusy,pseudoword,n,4,luck + busy,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+memongs,pseudoword,n,7,members + belongs,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+misk,pseudoword,n,4,mind + mask,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+neeze,pseudoword,n,5,needs + prize,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+numaid,pseudoword,n,6,number + afraid,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+otowly,pseudoword,n,6,others + slowly,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+phip,pseudoword,n,4,phil + chip,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+plips,pseudoword,n,5,plans + ships,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+plusy,pseudoword,n,5,plans + lousy,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+poisim,pseudoword,n,6,poison + victim,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+rogeo,pseudoword,n,5,roger + video,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+sisched,pseudoword,n,7,sisters + reached,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+slowim,pseudoword,n,6,slowly + victim,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+snage,pseudoword,n,5,snake + image,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+suards,pseudoword,n,6,suffer + guards,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+switty,pseudoword,n,6,switch + county,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+theeze,pseudoword,n,6,thanks + freeze,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+thift,pseudoword,n,5,their + shift,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+tirms,pseudoword,n,5,tired + seems,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+trift,pseudoword,n,5,trade + shift,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+tudeo,pseudoword,n,5,turns + video,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+tuffer,pseudoword,n,6,turkey + suffer,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+turcy,pseudoword,n,5,turns + mercy,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+visk,pseudoword,n,4,view + mask,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+wricy,pseudoword,n,5,write + mercy,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
+wroge,pseudoword,n,5,wrong + image,,,,,Generated via word recombination; dictionary-screened; SCOPE and pronunciation validation needed
