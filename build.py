@@ -127,10 +127,26 @@ def build(folder):
     js = replace_once(js, r"(\n  util\.addInfoFromUrl\(expInfo\);)",
                       "\\1\n  expInfo['participant'] = participantCode;  // added by build.py",
                       "re-apply the participant code")
-    if re.search(r"flowScheduler\.add\(\w+LoopEnd\);", js):
+    # Upload just before one routine in the main flow: "save_before" in experiment.json,
+    # or the very last routine if that is not set. Everything before that point is in the
+    # file; whatever that routine and later ones record (usually only a debriefing or
+    # goodbye screen) is not. Never place it before a survey or anything else you need.
+    top_level = re.findall(r"\nflowScheduler\.add\((\w+)RoutineBegin\(\)\);", js)
+    save_before = cfg.get("save_before") or (top_level[-1] if top_level else None)
+    if save_before:
+        if save_before not in top_level:
+            fail(f"{folder.name}: save_before is '{save_before}', but the routines in the main "
+                 f"flow (outside loops) are: {', '.join(top_level)}")
+        js = replace_once(js, rf"(\nflowScheduler\.add\({re.escape(save_before)}RoutineBegin\(\)\);)",
+                          "\nflowScheduler.add(dataPipe.saveStep);  // added by build.py\\1",
+                          f"save before routine '{save_before}'", last=True)
+        after = top_level[len(top_level) - 1 - top_level[::-1].index(save_before):]
+        saved_note = f"   uploads before: {' > '.join(after)}"
+    else:   # the flow ends with a loop
         js = replace_once(js, r"(flowScheduler\.add\(\w+LoopEnd\);)",
                           "\\1\nflowScheduler.add(dataPipe.saveStep);  // added by build.py",
                           "save after the last loop", last=True)
+        saved_note = "   uploads after the last loop"
     js = replace_once(js, r"(\n  psychoJS\.window\.close\(\);\n  psychoJS\.quit\()",
                       "\n  await dataPipe.saveOnQuit(isCompleted);  // added by build.py\\1",
                       "save on quit")
@@ -160,7 +176,7 @@ def build(folder):
 </html>
 """, encoding="utf-8")
     note = "" if exp_id else "   (no datapipe_id yet: data will NOT be uploaded)"
-    print(f"built {folder.name}{note}")
+    print(f"built {folder.name}{saved_note}{note}")
     return cfg["title"]
 
 

@@ -11,6 +11,9 @@ Each experiment's link is `https://<user>.github.io/<repo>/<folder>/`.
 |---|---|
 | `study-01` | Semantic vs. rhyme priming in lexical decision |
 | `study-02` | Transposed-letter nonwords in lexical decision |
+| `study-03` | Emotional valence and concreteness in lexical decision |
+| `study-04` | Artificial grammar learning and gaming experience |
+| `study-05` | Emotional word categorisation with coloured words |
 
 ## Adding an experiment
 
@@ -32,14 +35,19 @@ Each experiment's link is `https://<user>.github.io/<repo>/<folder>/`.
    {
      "title": "Word recognition study",
      "datapipe_id": "PASTE_THE_ID_HERE",
-     "save_incomplete": false
+     "save_incomplete": false,
+     "save_before": "debrief"
    }
    ```
 
    `title` is what participants see in the browser tab and on the start dialog, so keep it
    from giving away the hypothesis. `save_incomplete` decides what happens when a participant presses Escape:
    `false` discards their data (use this when the consent screen promises that), `true`
-   uploads what they did so far.
+   uploads what they did so far. `save_before` is optional: it names the routine (in the
+   main flow, outside any loop) that the upload happens just before. Leave it out and the
+   upload happens before the last routine. Set it to the first debriefing screen when
+   there are several, but never to anything earlier than a survey or other screen whose
+   answers you need: whatever that routine and the ones after it record is not in the file.
 6. **Build and test:** `python3 build.py`, then `python3 -m http.server` in this folder and
    open `http://localhost:8000/<folder>/`. Run it to the end and check that the file
    arrives in OSF.
@@ -68,8 +76,8 @@ edit them by hand.
 
 - The data is uploaded as one CSV per participant, named
   `<participant>_<expName>_<date>.csv`, with the same columns PsychoPy writes locally.
-- The upload happens right after the last trial loop, before the debriefing screens, and
-  the participant sees "Saving your data" for a moment. If that upload fails it is tried
+- The upload happens just before the `save_before` routine (see above), normally the
+  debriefing, and the participant sees "Saving your data" for a moment. If that upload fails it is tried
   again when the experiment ends.
 - If it still fails, or `datapipe_id` is empty, the browser downloads the CSV to the
   participant's computer instead, so the data is not lost.
@@ -101,6 +109,53 @@ The originals are kept untouched outside this repo. These copies differ as follo
   now 0.9 of the screen tall with a letter height of 0.035 instead of 0.05. The wording
   is unchanged.
 - The student's DataPipe Code component is disabled.
+
+**study-03** (valence and concreteness)
+- The Code component that samples 40 trials from each of the six word conditions and 240
+  nonwords was Python only. It now has an equivalent JavaScript side.
+- The instruction text boxes were too small for their text, which the browser cut off.
+  They are now 1.2 x 0.9 of the screen height, with a letter height of 0.04 for the
+  longer texts.
+- The student's DataPipe Code component is disabled.
+
+**study-04** (artificial grammar learning)
+- The last survey question (`q4_2`, "How often do you play online video games?") had no
+  keyboard, so the experiment could never get past it. It now accepts a, b, c, or d and
+  stores the answer as `q4_2Resp.keys`.
+- `corrAns` in the conditions files was upper case (`C`, `N`) while the keys are lower
+  case, so every response was scored incorrect. The online files use lower case.
+- The conditions files are renamed `practice.xlsx` and `conditions.xlsx` and contain only
+  the `string` and `corrAns` columns (the originals had note columns without headers).
+- The background colour was written as `(r, g, b)`, which the JavaScript export turns into
+  black. It is now `[r, g, b]`, the same light blue as on the desktop.
+- Text boxes resized as in study-03. The student's DataPipe Code component is disabled.
+
+**study-05** (emotional word categorisation)
+- The loops read `practice.xlsx` and `conditions.xlsx` from the folder instead of a
+  `Research/` subfolder. The stray note column is dropped and one blank `letterColor`
+  (the word "thigh") is set to white.
+- Both keyboards scored every response against a fixed answer of `1`. They now use the
+  `corrAns` column.
+- The code that stops the practice loop after 20 trials had no JavaScript side, and the
+  code meant to stop the main loop after 130 trials named the practice loop, so the main
+  loop would have run all 3,152 words. Both now work, online and on the desktop.
+- The End screen said "press SPACEBAR to end" but had no keyboard, so the experiment
+  never finished. It now has one. The placeholder line "(insert adorable puppy pic)" is
+  removed.
+- The routine `Welcome_` is renamed `Welcome`: the trailing underscore makes PsychoPy
+  write JavaScript that crashes on start.
+- Text boxes resized as in study-03.
+
+## Things `build.py` cannot catch
+
+Check these by running the built experiment to the end once and reading the data file.
+
+- Text cut off in Textbox components (the browser clips text to the box; the desktop
+  does not).
+- A screen with no way to leave it (no keyboard and no duration).
+- A routine or loop name ending in an underscore.
+- A colour written with round brackets, `$(r, g, b)`: use square brackets.
+- `corrAns` values that do not match the allowed keys exactly, including case.
 
 ## Privacy
 

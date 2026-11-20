@@ -81,10 +81,10 @@ const trialsLoopScheduler = new Scheduler(psychoJS);
 flowScheduler.add(trialsLoopBegin(trialsLoopScheduler));
 flowScheduler.add(trialsLoopScheduler);
 flowScheduler.add(trialsLoopEnd);
+
+
+
 flowScheduler.add(dataPipe.saveStep);  // added by build.py
-
-
-
 flowScheduler.add(goodbyeRoutineBegin());
 flowScheduler.add(goodbyeRoutineEachFrame());
 flowScheduler.add(goodbyeRoutineEnd());
