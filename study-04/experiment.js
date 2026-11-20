@@ -373,7 +373,7 @@ async function experimentInit() {
   pracIntrotext = new visual.TextStim({
     win: psychoJS.window,
     name: 'pracIntrotext',
-    text: 'Now begins the training segment of this experiment.\n\nYou will be shown 50 strings of letters, each appearing for 5 seconds at a time.\n\nEach string follows the pattern, but you must try to identify it.\n\nWhen you are ready, please press *space* to begin the training trials.',
+    text: 'Now begins the training segment of this experiment.\n\nYou will be shown 50 strings of letters, each appearing for half a second at a time.\n\nEach string follows the pattern, but you must try to identify it.\n\nWhen you are ready, please press *space* to begin the training trials.',
     font: 'Arial',
     units: undefined, 
     pos: [0, 0], draggable: false, height: 0.05,  wrapWidth: undefined, ori: 0.0,

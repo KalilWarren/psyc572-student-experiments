@@ -128,6 +128,8 @@ The originals are kept untouched outside this repo. These copies differ as follo
   the `string` and `corrAns` columns (the originals had note columns without headers).
 - The background colour was written as `(r, g, b)`, which the JavaScript export turns into
   black. It is now `[r, g, b]`, the same light blue as on the desktop.
+- The training instructions said each string appears for 5 seconds. The 0.5 s duration is
+  intended (confirmed by the instructor), so the text now says "half a second".
 - Text boxes resized as in study-03. The student's DataPipe Code component is disabled.
 
 **study-05** (emotional word categorisation)
